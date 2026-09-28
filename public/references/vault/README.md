@@ -1,8 +1,10 @@
 # AI Competition Hub Reference Vault
 
-Upload the canonical reference images into this folder using these filenames:
+This directory contains the persistent public reference library used by the Hub.
 
-- `characters/char-01.jpg` through `characters/char-21.jpg`
-- `worlds/world-01.jpg` through `worlds/world-07.jpg`
+- `characters/` — 21 canonical named CHANNEL 86 character references.
+- `worlds/` — uploaded world/environment/style references.
 
-These files are served publicly by the deployed Vite app from `/references/vault/...` and are intended for the Character Vault and World/Environment Vault.
+Vault assets are wired into `src/main.tsx` and are selectable as HY IMAGE 3.5 references. Character and world selections share the model limit of five references per generation.
+
+Last sync: 2026-09-28.
