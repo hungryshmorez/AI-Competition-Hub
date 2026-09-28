@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-export const config = { maxDuration: 120 };
+export const config = { maxDuration: 300 };
 
 const BASE = 'https://console.gmicloud.ai';
 const QUEUE = BASE + '/api/v1/ie/requestqueue/apikey/requests';
