@@ -75,7 +75,7 @@ return <><header><div><b>CHANNEL 86</b><span> / EVIDENCE + AI COMPETITION HUB</s
     <div><b>$1.704</b><span>RECORDED HY IMAGE COST</span><small>+$0.120 est. GMI-only successes</small></div>
   </div>
   <div className="contestFacts">
-    <article><b>MODEL + PIPELINE</b><p>AI Competition Hub → Vercel → GMI Cloud → HY IMAGE 3.5</p><small>Model: hy-image-v3.5-preview · every request seed 0 · up to 5 ordered references</small></article>
+    <article><b>MODEL + PIPELINE</b><p>AI Competition Hub → Vercel → GMI Cloud → Tencent Hunyuan HY IMAGE 3.5</p><small>Model: hy-image-v3.5-preview · every request seed 0 · up to 5 ordered references</small></article>
     <article><b>FORENSIC FINDING</b><p>12 GMI requests were recovered outside the Hub.</p><small>5 succeeded · 7 failed. Two additional requests are known only by short ID: bb5a2d15 and 88d298bc.</small></article>
     <article><b>INTEGRITY</b><p>The six archived finals are byte-identical to their GMI outputs.</p><small>The composite master matches the hash stored in the Hub record. No settings or historical records were rewritten during the audit.</small></article>
     <article><b>CONTEST RECORD</b><p>Game Art · GMI Cloud / HY IMAGE 3.5</p><small>Deadline recorded in the archive: Oct 1, 2026 · 11:59 PM PT.</small></article>
@@ -101,11 +101,14 @@ return <><header><div><b>CHANNEL 86</b><span> / EVIDENCE + AI COMPETITION HUB</s
     </div>
   </div>
   <div className="evidenceNotes">
+    <b>COMPLETE EVIDENCE IS NOW PUBLIC</b>
+    <p>The full searchable forensic archive is available on this site at <strong>/evidence/</strong>: all 84 normalized generation/composite records, all 96 prompt versions in full text, all 57 reference records, the complete 387-event master timeline, iteration lineage, status snapshots, full cost ledger, 55 workflow-relevant GitHub milestones, missing metadata, reconciliation notes, final-six mappings, and direct output/reference links.</p>
     <b>WHAT THE ARCHIVE PROVES</b>
     <p>The preserved workflow covers original references, Prompt Lab records, exact GMI request IDs, prompts, seeds, ordered references, costs, output URLs and hashes, rejected/candidate/final review states, character-sheet corrections, Gameplay Grammar, Visual Intensity 0–4, Bellweather development, Static Pool development, Mr. 86 boss development, key art, final selection and deterministic compositing.</p>
     <p className="fine">Known gaps are explicitly preserved instead of fabricated: two full request IDs, 21 written reviews, exact status-change timestamps, final-selection timestamps, generated-reference add times, real GMI billing for failures, history older than the GMI endpoint's latest-20 window, intermediate Prompt Lab edits and historical generation-time screenshots.</p>
   </div>
   <div className="evidenceActions">
+    <a href="/evidence/">BROWSE COMPLETE FORENSIC ARCHIVE</a>
     <a href="#hub">OPEN LIVE PRODUCTION HUB</a>
     <a href="https://github.com/hungryshmorez/AI-Competition-Hub" target="_blank" rel="noreferrer">VIEW GITHUB REPOSITORY</a>
     <a href={SHOWCASE_URL} target="_blank" rel="noreferrer">OPEN 2K SHOWCASE</a>
